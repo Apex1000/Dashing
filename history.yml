@@ -1,0 +1,24 @@
+---
+buzzwords: "data: {\"items\":[{\"label\":\"Enterprise\",\"value\":2},{\"label\":\"Streamlininess\",\"value\":4},{\"label\":\"Exit
+  strategy\",\"value\":4},{\"label\":\"Pivoting\",\"value\":2},{\"label\":\"Turn-key\",\"value\":2},{\"label\":\"Paradigm
+  shift\",\"value\":1},{\"label\":\"Leverage\",\"value\":1}],\"id\":\"buzzwords\",\"updatedAt\":1509389312}\n\n"
+valuation: "data: {\"current\":2.1,\"last\":2.1,\"id\":\"valuation\",\"updatedAt\":1509389312}\n\n"
+karma: "data: {\"current\":79785,\"last\":140653,\"id\":\"karma\",\"updatedAt\":1509105074}\n\n"
+synergy: "data: {\"value\":30.6,\"id\":\"synergy\",\"updatedAt\":1509389312}\n\n"
+convergence: "data: {\"points\":[{\"x\":17,\"y\":11},{\"x\":18,\"y\":5},{\"x\":19,\"y\":27},{\"x\":20,\"y\":37},{\"x\":21,\"y\":32},{\"x\":22,\"y\":39},{\"x\":23,\"y\":21},{\"x\":24,\"y\":47},{\"x\":25,\"y\":38},{\"x\":26,\"y\":18}],\"id\":\"convergence\",\"updatedAt\":1509389312}\n\n"
+valuation1: "data: {\"current\":23.65,\"last\":23.65,\"id\":\"valuation1\",\"updatedAt\":1509389312}\n\n"
+valuation2: "data: {\"current\":10.01,\"last\":10.01,\"id\":\"valuation2\",\"updatedAt\":1509389312}\n\n"
+valuation3: "data: {\"current\":0.19,\"last\":0.19,\"id\":\"valuation3\",\"updatedAt\":1509389312}\n\n"
+valuation4: "data: {\"current\":29.75,\"last\":29.75,\"id\":\"valuation4\",\"updatedAt\":1509389312}\n\n"
+barchart: "data: {\"labels\":[\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\"],\"datasets\":[{\"label\":\"First
+  dataset\",\"data\":[64,50,47,46,46,44,68],\"backgroundColor\":[\"rgba(255, 99, 132,
+  0.2)\",\"rgba(255, 99, 132, 0.2)\",\"rgba(255, 99, 132, 0.2)\",\"rgba(255, 99, 132,
+  0.2)\",\"rgba(255, 99, 132, 0.2)\",\"rgba(255, 99, 132, 0.2)\",\"rgba(255, 99, 132,
+  0.2)\"],\"borderColor\":[\"rgba(255, 99, 132, 1)\",\"rgba(255, 99, 132, 1)\",\"rgba(255,
+  99, 132, 1)\",\"rgba(255, 99, 132, 1)\",\"rgba(255, 99, 132, 1)\",\"rgba(255, 99,
+  132, 1)\",\"rgba(255, 99, 132, 1)\"],\"borderWidth\":1},{\"label\":\"Second dataset\",\"data\":[64,44,40,54,62,79,42],\"backgroundColor\":[\"rgba(255,
+  206, 86, 0.2)\",\"rgba(255, 206, 86, 0.2)\",\"rgba(255, 206, 86, 0.2)\",\"rgba(255,
+  206, 86, 0.2)\",\"rgba(255, 206, 86, 0.2)\",\"rgba(255, 206, 86, 0.2)\",\"rgba(255,
+  206, 86, 0.2)\"],\"borderColor\":[\"rgba(255, 206, 86, 1)\",\"rgba(255, 206, 86,
+  1)\",\"rgba(255, 206, 86, 1)\",\"rgba(255, 206, 86, 1)\",\"rgba(255, 206, 86, 1)\",\"rgba(255,
+  206, 86, 1)\",\"rgba(255, 206, 86, 1)\"],\"borderWidth\":1}],\"id\":\"barchart\",\"updatedAt\":1509389310}\n\n"
