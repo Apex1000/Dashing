@@ -1,27 +1,28 @@
-<script type='text/javascript'>
-$(function() {
-  $('li').live('click', function(e){
-    var widget = $(this).find('.widget');
-    var url = widget.data('url');
-    window.location = url;
-  });
-});
-</script>
 <% content_for :title do %>My super sweet dashboard<% end %>
 <div class="gridster">
   <ul>
     <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="welcome" data-view="Text" data-title="EMV" data-url="sample"></div>
+      <div data-id="welcome" data-view="Text" data-title="" data-text="EMB dashboard." data-moreinfo=""></div>
     </li>
-    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="welcome" data-view="Text" data-title="RoadView" data-url="roadview"></div>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="synergy" data-view="Meter" data-title="Nitric Oxide" data-height="200" data-width="200" data-min="0" data-max="100" data-suffix=""></div>
     </li>
-    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="welcome" data-view="Text" data-title="RoadGio" data-url="sample"></div>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="valuation" data-view="Number" data-title="Nitrogen Dioxide" data-moreinfo="In billions" data-prefix=""></div>
     </li>
-    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="welcome" data-view="Text" data-title="Add More" data-url="sample"></div>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="valuation1" data-view="Number" data-title="Oxides of Nitrogen" data-moreinfo="In billions" data-prefix=""></div>
     </li>
-    
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="valuation2" data-view="Number" data-title="Sulphur Dioxide" data-moreinfo="In billions" data-prefix=""></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="valuation3" data-view="Number" data-title="Carbon Monoxide" data-moreinfo="In billions" data-prefix=""></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="valuation4" data-view="Number" data-title="PM10" data-moreinfo="In billions" data-prefix=""></div>
+    </li>
   </ul>
+ 
 </div>
