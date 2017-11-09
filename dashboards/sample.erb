@@ -23,15 +23,6 @@
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="valuation4" data-view="Number" data-title="PM10" data-moreinfo="In billions" data-prefix=""></div>
     </li>
-    <li data-row="2" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="barchart" data-view ="BarChart" data-title="Bar Chart" data-moreinfo=""></div>
-    </li>
-    <li data-row="2" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="linechart" data-view ="LineChart" data-title="Line Chart" data-moreinfo=""></div>
-    </li>
-    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="dynamap" data-view="Dynamap" data-title="Dynamic Heat Map" data-zoom=1 data-map-type="ROADMAP"></div>
-    </li>
   </ul>
   curl -d '{ "auth_token": "AIzaSyDX4fb70ybEcLGZESc-LhqsIDSmQXErxgM", "Country": "Spain" }' http://<%=request.host%>:<%=request.port%>/widgets/dynamap
 </div>

@@ -1,0 +1,27 @@
+<script type='text/javascript'>
+$(function() {
+  $('li').live('click', function(e){
+    var widget = $(this).find('.widget');
+    var url = widget.data('url');
+    window.location = url;
+  });
+});
+</script>
+<% content_for :title do %>My super sweet dashboard<% end %>
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="welcome" data-view="Text" data-title="EMV" data-url="sample"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="welcome" data-view="Text" data-title="RoadView" data-url="roadview"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="welcome" data-view="Text" data-title="RoadGio" data-url="sample"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="welcome" data-view="Text" data-title="Add More" data-url="sample"></div>
+    </li>
+    
+  </ul>
+</div>
