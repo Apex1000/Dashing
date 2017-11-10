@@ -91,4 +91,4 @@ class Dashing.Dynamap extends Dashing.Widget
     pointArray = new google.maps.MVCArray(new_map)
     heatmap = new google.maps.visualization.HeatmapLayer({data: pointArray})
     heatmap.setMap(map)
-$(@node).fadeOut().fadeIn()
+    $(@node).fadeOut().fadeIn()

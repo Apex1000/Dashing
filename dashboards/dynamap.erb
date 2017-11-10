@@ -1,0 +1,9 @@
+<% content_for :title do %>Dynamic Map<% end %>
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="dynamap" data-view="Dynamap" data-title="Dynamic Heat Map" data-zoom=1 data-map-type="ROADMAP"></div>
+    </li>
+  </ul>
+  <center><div style="font-size: 12px">Try this: curl -d '{ "auth_token": "YOUR_AUTH_TOKEN", "Country": "Spain" }' \http://<%=request.host%>:<%=request.port%>/widgets/dynamap</div></center>
+</div>
